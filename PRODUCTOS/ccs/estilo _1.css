@@ -1,0 +1,137 @@
+/* ===== RESETEO BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  width: 100%;
+  background: #800000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+nav img.logo {
+  max-height: 80px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #f1c40f;
+}
+
+/* ===== SWIPER ESTILO TARJETAS ===== */
+.swiper {
+  width: 50%;
+  padding: 80px 0;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 500px;
+  background-color: #800000;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.swiper-slide:hover {
+  background-color: #1e1e1e;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icons i {
+  font-size: 20px;
+  color: aqua;
+}
+
+.icons img {
+  width: 100px;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-txt {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.product-txt span {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.product-txt h3 {
+  font-size: 28px;
+  color: yellow;
+  text-transform: uppercase;
+}
+
+.product-txt p {
+  font-size: 16px;
+  color: white;
+}
+
+.product-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-1:hover {
+  background-color: #fff;
+  color: #800000;
+  font-weight: bold;
+}
